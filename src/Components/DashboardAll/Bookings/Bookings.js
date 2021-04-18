@@ -7,7 +7,7 @@ const Bookings = () => {
     const [loggedInUser,setLoggedInUser]= useContext(UserContext)
 
     useEffect(() => {
-        fetch('http://localhost:5050/dashboard/bookings?email='+loggedInUser.customerEmail)
+        fetch('https://boiling-brushlands-55118.herokuapp.com/dashboard/bookings?email='+loggedInUser.customerEmail)
         .then((response) => response.json())
         .then(data => setOrders(data))
     },[])

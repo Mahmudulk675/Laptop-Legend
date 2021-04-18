@@ -11,13 +11,13 @@ const ManageServices = () => {
     }, []);
 
     const getServices = () =>{
-        fetch('http://localhost:5050/services')
+        fetch('https://boiling-brushlands-55118.herokuapp.com/services')
         .then(response => response.json())
         .then(data => setServices(data))
     }
 
     const handleDelete = (id)=>{
-        fetch(`http://localhost:5050/dashboard/manageService/${id}`,{
+        fetch(`https://boiling-brushlands-55118.herokuapp.com/dashboard/manageService/${id}`,{
             method: 'DELETE'
         })
         .then(response => response.json())

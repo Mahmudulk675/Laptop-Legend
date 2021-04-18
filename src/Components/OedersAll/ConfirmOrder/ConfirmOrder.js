@@ -14,7 +14,7 @@
 //     const [singleService, setSingleService] =useState({})
 
 //     useEffect(() => {
-//         fetch(`http://localhost:5050/order/${id}`)
+//         fetch(`https://boiling-brushlands-55118.herokuapp.com/order/${id}`)
 //         .then(response => response.json())
 //         .then(data => setSingleService(data))
 
@@ -30,7 +30,7 @@
 //       }
 
 
-//       fetch('http://localhost:5050/order/'+id,{
+//       fetch('https://boiling-brushlands-55118.herokuapp.com/order/'+id,{
 //         method: 'POST',
 //         headers: { 
 //           'Content-Type': 'application/json'
@@ -116,7 +116,7 @@ const ConfirmOrder = () => {
             paymentId,
             orderTime: new Date() }
   
-      fetch(`http://localhost:5050/order`, {
+      fetch(`https://boiling-brushlands-55118.herokuapp.com/order`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -135,7 +135,7 @@ const ConfirmOrder = () => {
   
 
     useEffect(() => {
-        fetch(`http://localhost:5050/order/${id}`)
+        fetch(`https://boiling-brushlands-55118.herokuapp.com/order/${id}`)
         .then(response => response.json())
         .then(data => setSingleService(data))
 
@@ -151,7 +151,7 @@ const ConfirmOrder = () => {
     //   }
 
 
-    //   fetch('http://localhost:5050/order/'+id,{
+    //   fetch('https://boiling-brushlands-55118.herokuapp.com/order/'+id,{
     //     method: 'POST',
     //     headers: { 
     //       'Content-Type': 'application/json'

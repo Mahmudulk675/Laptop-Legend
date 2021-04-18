@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, FormControl, Nav } from 'react-bootstrap';
+import { Form, FormControl, Nav  } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -40,7 +40,7 @@ const Navbar = () => {
         </div>
 
 
-        // <div>
+//         <div>
 //         <h1>ddddddddddddd</h1>
 //         <Navbar bg="dark" variant="dark">
 // <Navbar.Brand href="#home">Navbar</Navbar.Brand>
@@ -50,7 +50,7 @@ const Navbar = () => {
 // <Link className="nav-link mr-5 " to="/dashboard">Dashboard</Link>
 // </Nav>
 // </Navbar>
-        // </div>
+//         </div>
     );
 };
 

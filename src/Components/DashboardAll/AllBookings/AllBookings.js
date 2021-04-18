@@ -7,7 +7,7 @@ const AllBookings = () => {
     const handleChange = (e, id) => {
         const newStatus = e.target.value;
         // console.log('value', newStatus, id);
-        fetch(`http://localhost:5050/updateStatus/${id}`,{
+        fetch(`https://boiling-brushlands-55118.herokuapp.com/updateStatus/${id}`,{
             method: 'PATCH',
             headers: { 'Content-Type': 'application/json'},
             body: JSON.stringify({status: newStatus})
@@ -19,7 +19,7 @@ const AllBookings = () => {
         
 
     useEffect(() => {
-        fetch('http://localhost:5050/dashboard/allBookings')
+        fetch('https://boiling-brushlands-55118.herokuapp.com/dashboard/allBookings')
             .then(res => res.json())
             .then(data => setAllBookings(data))
     }, [])

@@ -20,7 +20,7 @@ const Review = () => {
              description: description,
              
          }
-         const url = 'http://localhost:5050/dashboard/review'
+         const url = 'https://boiling-brushlands-55118.herokuapp.com/dashboard/review'
          console.log('reviews',reviewData );
  
          fetch(url, {
@@ -35,7 +35,7 @@ const Review = () => {
     
     return (
         <div>
-            <h1>hiiiiiiiiiiii</h1>
+            
         <Form className="mt-5 row"  >
           <div  className="col-md-8">
           <Form.Group controlId="formBasicEmail">

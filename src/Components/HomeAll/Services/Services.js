@@ -31,7 +31,7 @@ const Services = () => {
     const [spinner, setSpinner] = useState(true);
 
     useEffect(() => {
-        fetch('http://localhost:5050/services')
+        fetch('https://boiling-brushlands-55118.herokuapp.com/services')
         .then(response => response.json())
         .then(data => {setServices(data)
             setSpinner(false);

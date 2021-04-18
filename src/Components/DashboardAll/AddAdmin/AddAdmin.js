@@ -22,7 +22,7 @@ const AddAdmin = () => {
              email: email,
             //  imgUrl: imgUrl
          }
-         const url = 'http://localhost:5050/dashboard/addAdmin'
+         const url = 'https://boiling-brushlands-55118.herokuapp.com/dashboard/addAdmin'
          console.log('dgdfgdfg',adminData );
  
          fetch(url, {

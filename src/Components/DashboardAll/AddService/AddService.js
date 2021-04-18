@@ -23,7 +23,7 @@ const AddService = () => {
              description: description,
              imgUrl: imgUrl
          }
-         const url = 'http://localhost:5050/dashboard/addService'
+         const url = 'https://boiling-brushlands-55118.herokuapp.com/dashboard/addService'
          console.log('dgdfgdfg',itemData );
  
          fetch(url, {
