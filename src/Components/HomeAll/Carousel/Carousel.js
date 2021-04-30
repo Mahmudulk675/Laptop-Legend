@@ -1,5 +1,7 @@
 import React from 'react';
 import repair from '../../../Images/repair.jpg'
+import laptop from '../../../Images/burst-kUqqaRjJuw0-unsplash.jpg';
+import more from '../../../Images/michal-kubalczyk-WecngmAT-KY-unsplash.jpg'
 
 const Carousel = () => {
     return (
@@ -39,7 +41,7 @@ const Carousel = () => {
             <div class="carousel-item active">
               <div class="row">
                 <div class="col-md-5">
-                  <img src={repair} class="d-block w-100" alt="..."/>
+                  <img src={laptop} class="d-block w-100" alt="..."/>
                 </div>
                 <div class="col-md-4 hot-trend-text">
                   <h1>Laptop Legend</h1>
@@ -83,7 +85,7 @@ const Carousel = () => {
             <div class="carousel-item">
               <div class="row">
                 <div class="col-md-5">
-                  <img src="img/Photos/Daco_1703273 1.png" class="d-block w-100" alt="..."/>
+                  <img src={more} class="d-block w-100" alt="..."/>
                 </div>
                 <div class="col-md-4 hot-trend-text mx-auto">
                   <h1>Nike Air</h1>

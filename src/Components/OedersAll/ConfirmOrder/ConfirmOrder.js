@@ -165,7 +165,7 @@ const ConfirmOrder = () => {
     return (
         <div className="container">
           <h3>{singleService.name} </h3>
-          <h5>{singleService.price}</h5>
+          <h5>Cost:- ${singleService.price}</h5>
             <div style = {{display: shippingData ? 'none': 'block'}} className="col-md-6">
         <form className="ship-form" onSubmit={handleSubmit(onSubmit)}>
           <input name="name" defaultValue={loggedInUser.name} ref={register({ required: true })} placeholder="Your Name" />

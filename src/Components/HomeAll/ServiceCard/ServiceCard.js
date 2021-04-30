@@ -10,7 +10,7 @@ const ServiceCard = (props) => {
         history.push(`/order/${_id}`);
     }
     return (
-        <div className="col-md-4 text-center">
+        <div className="col-md-4 text-center service-card" >
             <div class="card " style={{width: '18rem'}}>
                 <img src={imgUrl} class="card-img-top" alt="..."/>
                     <div class="card-body">
